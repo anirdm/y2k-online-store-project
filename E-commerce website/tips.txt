@@ -1,0 +1,29 @@
+1. Use percentage-based widths instead of fixed pixel values 
+to allow content to adjust based on the screen size.
+
+2. em or rem for font sizes to ensure that text scales 
+with the screen size. 
+
+3. Check where I need classes and where is not necessary 
+to have them.
+
+4. 20-27 line, right after header
+            <!--mobile-menu-------------->
+            <div class=""mobile-menu bg-second>
+                <a href="#" class="mb-logo"></a>  <!--WARNING-do-I-need-this-------------->
+                <span class="mb-menu-toggle" id="mb-menu-toggle">
+                    <i class='bx bx-menu'></i>
+                </span>
+            </div>
+            <!--end-mobile-menu-------------->
+5. Може от "главната част" на главната страница да се преминава 
+нататък със стрелка надолу или да се отваря като в сайта на 
+New Yorker(следващата част идва отдолу нагоре)
+
+6. Create CSS grid for the whole structure of the page.
+
+7. Hamburger menu like Stradivarius
+
+8. When compressed to a certain width the CSS grid should show
+two products at a row
+(ex.:@media(min-width: 50em))
